@@ -19,7 +19,7 @@ body{
 }
 
 .lobby{
-    width: 90%;
+    width: 95%;
     height: fit-content;
     background-color:#33333398;
     backdrop-filter: blur(20px);
@@ -30,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    gap: 10px;
+    gap: 5px;
     padding: 8px 0;
     z-index: 100;
     border-right: 2px solid gold;
@@ -51,7 +51,8 @@ body{
 }
 .lobby .box-data p{
     color: yellow;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
     text-shadow: 0px 0px 2px  rgb(0, 0, 0);
 }
 .lobby .box-image{
